@@ -1,0 +1,300 @@
+/**
+ * Boilerplate for responsive webpages.
+ * Created by James Bonder. This boilerplate offers
+ * mixins that support fluid and as well as fixed
+ * grids based on the Skeleton framework.
+ */
+/* SASS FUNCTIONS
+ * ------------------------------------------------ */
+/* Box sizing for browser compatability
+ * ------------------------------------------------ */
+/* line 20, ../sass/scss/layout.scss */
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* SITE STYLES
+ * ------------------------------------------------ */
+/*/ BANDS 
+ * ------------------------------------------------ */
+/* line 31, ../sass/scss/layout.scss */
+.band.header {
+  border-top: 5px solid #258244;
+  background-color: #fff;
+  height: 68px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  opacity: 0.9;
+}
+
+/* line 42, ../sass/scss/layout.scss */
+section.first {
+  margin: 0 auto;
+  height: 97%;
+  width: 100%;
+  background-image: url(http://i.imgur.com/Es9Tv8G.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-size: cover;
+}
+
+/* line 53, ../sass/scss/layout.scss */
+section.second {
+  border-top: 2px solid white;
+  margin: 0 auto;
+  height: 100%;
+  width: 100%;
+  background-image: url(http://i.imgur.com/Es9Tv8G.jpg);
+  background-size: cover;
+}
+
+/* line 62, ../sass/scss/layout.scss */
+section.third {
+  border-top: 2px solid white;
+  margin: 0 auto;
+  height: 100%;
+  width: 100%;
+  background-image: url(http://i.imgur.com/Es9Tv8G.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-size: cover;
+}
+
+/* line 74, ../sass/scss/layout.scss */
+section.fourth {
+  border-top: 2px solid white;
+  margin: 0 auto;
+  height: 100%;
+  width: 100%;
+  background-image: url(http://i.imgur.com/Es9Tv8G.jpg);
+  background-size: cover;
+}
+
+/* HEADING
+ *------------------------------------------------- */
+/* line 86, ../sass/scss/layout.scss */
+.menuwrap {
+  text-align: center;
+}
+
+/* line 90, ../sass/scss/layout.scss */
+.nav {
+  line-height: 63px;
+  color: #474747;
+  font-size: 14px;
+}
+
+/* line 96, ../sass/scss/layout.scss */
+.nav a {
+  text-decoration: none;
+}
+
+/* line 100, ../sass/scss/layout.scss */
+.nav p {
+  font-family: helvetica;
+  color: #6B6B6B;
+  font-size: 14px;
+  line-height: 70px;
+}
+
+/* line 107, ../sass/scss/layout.scss */
+.nav p:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* line 112, ../sass/scss/layout.scss */
+.nav.menu1 {
+  flex: 4;
+  background: #258244;
+  max-width: 100px;
+  min-width: 80px;
+  height: 63px;
+}
+
+/* line 120, ../sass/scss/layout.scss */
+.nav.menu2 {
+  flex: 4;
+  background-color: white;
+  border-right: 1px solid #F0F0F0;
+  min-width: 70px;
+  max-width: 100px;
+  height: 63px;
+}
+
+/* line 129, ../sass/scss/layout.scss */
+.nav.menu2:hover {
+  background-color: #258244;
+}
+
+/* line 133, ../sass/scss/layout.scss */
+.nav.menu3:hover {
+  background-color: #258244;
+}
+
+/* line 137, ../sass/scss/layout.scss */
+.nav.menu4:hover {
+  background-color: #258244;
+}
+
+/* line 141, ../sass/scss/layout.scss */
+.nav.menu5:hover {
+  background-color: #258244;
+}
+
+/* line 145, ../sass/scss/layout.scss */
+.nav.menu3 {
+  flex: 4;
+  background-color: white;
+  border-right: 1px solid #F0F0F0;
+  min-width: 70px;
+  max-width: 100px;
+  height: 63px;
+}
+
+/* line 154, ../sass/scss/layout.scss */
+.nav.menu4 {
+  flex: 4;
+  background-color: white;
+  border-right: 1px solid #F0F0F0;
+  min-width: 70px;
+  max-width: 100px;
+  height: 63px;
+}
+
+/* line 163, ../sass/scss/layout.scss */
+.nav.menu5 {
+  flex: 4;
+  background-color: white;
+  border-right: 1px solid #F0F0F0;
+  min-width: 70px;
+  max-width: 140px;
+  height: 63px;
+}
+
+/* line 172, ../sass/scss/layout.scss */
+.nav.menu6 {
+  flex: 5;
+  background-color: white;
+}
+
+/* line 177, ../sass/scss/layout.scss */
+nav.menu {
+  display: flex;
+  height: 62px;
+  width: 78%;
+  margin: 0 auto;
+}
+
+/* line 184, ../sass/scss/layout.scss */
+.main.content {
+  margin: 0px 0px 0px 0px;
+  width: 100%;
+  height: 100%;
+}
+
+/* NAVIGATION
+ *---------------------------------------------------- */
+/* Footer
+ *---------------------------------------------------- */
+/* line 196, ../sass/scss/layout.scss */
+.band.footer {
+  position: absolute;
+  width: 100%;
+  background-color: #000;
+}
+
+/* line 205, ../sass/scss/layout.scss */
+.footer article.eight.columns p {
+  color: #fff;
+  padding-top: 22px;
+}
+
+/* line 210, ../sass/scss/layout.scss */
+.footer section.eight.columns p {
+  color: #fff;
+  padding-top: 22px;
+}
+
+/* line 215, ../sass/scss/layout.scss */
+.footer section.eight.columns {
+  float: right;
+  text-align: right;
+}
+
+/* line 220, ../sass/scss/layout.scss */
+.footer section.eight.columns a {
+  text-decoration: none;
+}
+
+/* OTHER PAGE STYLES
+ * ------------------------------------------------ */
+/* line 228, ../sass/scss/layout.scss */
+html {
+  height: 100%;
+}
+
+/* line 229, ../sass/scss/layout.scss */
+body {
+  height: 100%;
+}
+
+/* TEXT STYLING
+ *------------------------------------------------- */
+/* line 239, ../sass/scss/layout.scss */
+h3 {
+  font-family: helvetica;
+}
+
+/* MEDIA QUERIES 
+ * ------------------------------------------------ */
+@media only screen and (min-height: 750px) {
+  /* line 248, ../sass/scss/layout.scss */
+  .wrapper.top {
+    height: 96.5%;
+  }
+}
+/* Smaller than standard */
+/* Tablet Portrait size to standard (devices and browsers) */
+@media only screen and (max-width: 480px) {
+  /* line 265, ../sass/scss/layout.scss */
+  nav.menu {
+    width: 100%;
+  }
+}
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {
+  /* line 273, ../sass/scss/layout.scss */
+  select {
+    width: 90%;
+  }
+
+  /* line 277, ../sass/scss/layout.scss */
+  .two.columns {
+    display: none;
+  }
+
+  /* line 281, ../sass/scss/layout.scss */
+  .footer article.eight.columns {
+    text-align: center;
+  }
+
+  /* line 285, ../sass/scss/layout.scss */
+  .footer section.eight.columns {
+    text-align: center;
+  }
+}
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 960px) {
+  /* line 303, ../sass/scss/layout.scss */
+  nav.menu {
+    width: 100%;
+  }
+}
