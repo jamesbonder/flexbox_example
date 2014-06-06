@@ -44,6 +44,21 @@ section.first {
 }
 
 /* line 53, ../sass/scss/layout.scss */
+section.first h1 {
+  opacity: 0.8;
+  position: relative;
+  width: 100%;
+  top: 89%;
+  text-align: center;
+  font-family: arial;
+  font-size: 40px;
+  background-color: white;
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+/* line 67, ../sass/scss/layout.scss */
 section.second {
   border-top: 2px solid white;
   margin: 0 auto;
@@ -53,12 +68,43 @@ section.second {
   background-size: cover;
 }
 
-/* line 62, ../sass/scss/layout.scss */
+/* line 76, ../sass/scss/layout.scss */
+section.second h1 {
+  opacity: 0.8;
+  position: relative;
+  width: 100%;
+  top: 89%;
+  text-align: center;
+  font-family: arial;
+  font-size: 40px;
+  background-color: white;
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+/* line 90, ../sass/scss/layout.scss */
+section.third h1 {
+  opacity: 0.8;
+  position: relative;
+  width: 100%;
+  top: 89%;
+  text-align: center;
+  font-family: arial;
+  font-size: 40px;
+  background-color: white;
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+/* line 104, ../sass/scss/layout.scss */
 section.third {
   border-top: 2px solid white;
   margin: 0 auto;
   height: 100%;
   width: 100%;
+  overflow: hidden;
   background-image: url(http://i.imgur.com/Es9Tv8G.jpg);
   background-repeat: no-repeat;
   background-size: contain;
@@ -66,36 +112,46 @@ section.third {
   background-size: cover;
 }
 
-/* line 74, ../sass/scss/layout.scss */
+/* line 117, ../sass/scss/layout.scss */
 section.fourth {
   border-top: 2px solid white;
   margin: 0 auto;
   height: 100%;
   width: 100%;
-  background-image: url(http://i.imgur.com/Es9Tv8G.jpg);
+  background-color: #85c3af;
+  background-size: cover;
+}
+
+/* line 126, ../sass/scss/layout.scss */
+section.fifth {
+  border-top: 2px solid white;
+  margin: 0 auto;
+  height: 100%;
+  width: 100%;
+  background-color: #a29281;
   background-size: cover;
 }
 
 /* HEADING
  *------------------------------------------------- */
-/* line 86, ../sass/scss/layout.scss */
+/* line 138, ../sass/scss/layout.scss */
 .menuwrap {
   text-align: center;
 }
 
-/* line 90, ../sass/scss/layout.scss */
+/* line 142, ../sass/scss/layout.scss */
 .nav {
   line-height: 63px;
   color: #474747;
   font-size: 14px;
 }
 
-/* line 96, ../sass/scss/layout.scss */
+/* line 148, ../sass/scss/layout.scss */
 .nav a {
   text-decoration: none;
 }
 
-/* line 100, ../sass/scss/layout.scss */
+/* line 152, ../sass/scss/layout.scss */
 .nav p {
   font-family: helvetica;
   color: #6B6B6B;
@@ -103,14 +159,15 @@ section.fourth {
   line-height: 70px;
 }
 
-/* line 107, ../sass/scss/layout.scss */
+/* line 159, ../sass/scss/layout.scss */
 .nav p:hover {
   color: #fff;
   text-decoration: none;
 }
 
-/* line 112, ../sass/scss/layout.scss */
+/* line 164, ../sass/scss/layout.scss */
 .nav.menu1 {
+  -webkit-box-flex: 4;
   flex: 4;
   background: #258244;
   max-width: 100px;
@@ -118,7 +175,7 @@ section.fourth {
   height: 63px;
 }
 
-/* line 120, ../sass/scss/layout.scss */
+/* line 173, ../sass/scss/layout.scss */
 .nav.menu2 {
   flex: 4;
   background-color: white;
@@ -128,27 +185,27 @@ section.fourth {
   height: 63px;
 }
 
-/* line 129, ../sass/scss/layout.scss */
+/* line 182, ../sass/scss/layout.scss */
 .nav.menu2:hover {
   background-color: #258244;
 }
 
-/* line 133, ../sass/scss/layout.scss */
+/* line 186, ../sass/scss/layout.scss */
 .nav.menu3:hover {
   background-color: #258244;
 }
 
-/* line 137, ../sass/scss/layout.scss */
+/* line 190, ../sass/scss/layout.scss */
 .nav.menu4:hover {
   background-color: #258244;
 }
 
-/* line 141, ../sass/scss/layout.scss */
+/* line 194, ../sass/scss/layout.scss */
 .nav.menu5:hover {
   background-color: #258244;
 }
 
-/* line 145, ../sass/scss/layout.scss */
+/* line 198, ../sass/scss/layout.scss */
 .nav.menu3 {
   flex: 4;
   background-color: white;
@@ -158,7 +215,7 @@ section.fourth {
   height: 63px;
 }
 
-/* line 154, ../sass/scss/layout.scss */
+/* line 207, ../sass/scss/layout.scss */
 .nav.menu4 {
   flex: 4;
   background-color: white;
@@ -168,7 +225,7 @@ section.fourth {
   height: 63px;
 }
 
-/* line 163, ../sass/scss/layout.scss */
+/* line 216, ../sass/scss/layout.scss */
 .nav.menu5 {
   flex: 4;
   background-color: white;
@@ -178,21 +235,22 @@ section.fourth {
   height: 63px;
 }
 
-/* line 172, ../sass/scss/layout.scss */
+/* line 225, ../sass/scss/layout.scss */
 .nav.menu6 {
   flex: 5;
   background-color: white;
 }
 
-/* line 177, ../sass/scss/layout.scss */
+/* line 230, ../sass/scss/layout.scss */
 nav.menu {
+  display: -webkit-box;
   display: flex;
   height: 62px;
   width: 78%;
   margin: 0 auto;
 }
 
-/* line 184, ../sass/scss/layout.scss */
+/* line 238, ../sass/scss/layout.scss */
 .main.content {
   margin: 0px 0px 0px 0px;
   width: 100%;
@@ -203,59 +261,141 @@ nav.menu {
  *---------------------------------------------------- */
 /* Footer
  *---------------------------------------------------- */
-/* line 196, ../sass/scss/layout.scss */
+/* line 250, ../sass/scss/layout.scss */
 .band.footer {
   position: absolute;
   width: 100%;
   background-color: #000;
 }
 
-/* line 205, ../sass/scss/layout.scss */
+/* line 259, ../sass/scss/layout.scss */
 .footer article.eight.columns p {
   color: #fff;
   padding-top: 22px;
 }
 
-/* line 210, ../sass/scss/layout.scss */
+/* line 264, ../sass/scss/layout.scss */
 .footer section.eight.columns p {
   color: #fff;
   padding-top: 22px;
 }
 
-/* line 215, ../sass/scss/layout.scss */
+/* line 269, ../sass/scss/layout.scss */
 .footer section.eight.columns {
   float: right;
   text-align: right;
 }
 
-/* line 220, ../sass/scss/layout.scss */
+/* line 274, ../sass/scss/layout.scss */
 .footer section.eight.columns a {
   text-decoration: none;
 }
 
 /* OTHER PAGE STYLES
  * ------------------------------------------------ */
-/* line 228, ../sass/scss/layout.scss */
+/* line 282, ../sass/scss/layout.scss */
 html {
   height: 100%;
 }
 
-/* line 229, ../sass/scss/layout.scss */
+/* line 283, ../sass/scss/layout.scss */
 body {
   height: 100%;
 }
 
 /* TEXT STYLING
  *------------------------------------------------- */
-/* line 239, ../sass/scss/layout.scss */
+/* line 293, ../sass/scss/layout.scss */
 h3 {
   font-family: helvetica;
 }
 
 /* MEDIA QUERIES 
  * ------------------------------------------------ */
+@media only screen and (max-width: 950px) {
+  /* line 300, ../sass/scss/layout.scss */
+  section.third h1 {
+    font-size: 33px;
+  }
+}
+@media only screen and (max-width: 865px) {
+  /* line 306, ../sass/scss/layout.scss */
+  section.first h1 {
+    font-size: 30px;
+  }
+
+  /* line 310, ../sass/scss/layout.scss */
+  section.second h1 {
+    font-size: 28px;
+  }
+}
+@media only screen and (max-width: 750px) {
+  /* line 316, ../sass/scss/layout.scss */
+  section.second {
+    background-image: url(http://i.imgur.com/qIS61T2.jpg);
+    background-image: cover;
+  }
+
+  /* line 321, ../sass/scss/layout.scss */
+  section.third h1 {
+    font-size: 25px;
+  }
+}
+@media only screen and (max-width: 660px) {
+  /* line 327, ../sass/scss/layout.scss */
+  section.first h1 {
+    font-size: 25px;
+  }
+
+  /* line 331, ../sass/scss/layout.scss */
+  section.second h1 {
+    font-size: 23px;
+  }
+
+  /* line 335, ../sass/scss/layout.scss */
+  section.third h1 {
+    font-size: 22px;
+  }
+}
+@media only screen and (max-width: 525px) {
+  /* line 341, ../sass/scss/layout.scss */
+  section.first h1 {
+    font-size: 17px;
+  }
+
+  /* line 345, ../sass/scss/layout.scss */
+  section.second h1 {
+    font-size: 15px;
+  }
+
+  /* line 349, ../sass/scss/layout.scss */
+  section.third h1 {
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width: 525px) {
+  /* line 355, ../sass/scss/layout.scss */
+  section.second {
+    background-image: url(http://i.imgur.com/9gy7887.jpg);
+    background-image: cover;
+  }
+}
+@media only screen and (max-width: 400px) {
+  /* line 362, ../sass/scss/layout.scss */
+  section.second {
+    background-image: url(http://i.imgur.com/VU8tlQC.jpg);
+    background-image: cover;
+  }
+}
+@media only screen and (max-width: 750px) {
+  /* line 369, ../sass/scss/layout.scss */
+  section.third {
+    background-image: url(http://i.imgur.com/qIS61T2.jpg);
+    background-image: cover;
+  }
+}
 @media only screen and (min-height: 750px) {
-  /* line 248, ../sass/scss/layout.scss */
+  /* line 376, ../sass/scss/layout.scss */
   .wrapper.top {
     height: 96.5%;
   }
@@ -263,29 +403,29 @@ h3 {
 /* Smaller than standard */
 /* Tablet Portrait size to standard (devices and browsers) */
 @media only screen and (max-width: 480px) {
-  /* line 265, ../sass/scss/layout.scss */
+  /* line 393, ../sass/scss/layout.scss */
   nav.menu {
     width: 100%;
   }
 }
 /* All Mobile Sizes (devices and browser) */
 @media only screen and (max-width: 767px) {
-  /* line 273, ../sass/scss/layout.scss */
+  /* line 401, ../sass/scss/layout.scss */
   select {
     width: 90%;
   }
 
-  /* line 277, ../sass/scss/layout.scss */
+  /* line 405, ../sass/scss/layout.scss */
   .two.columns {
     display: none;
   }
 
-  /* line 281, ../sass/scss/layout.scss */
+  /* line 409, ../sass/scss/layout.scss */
   .footer article.eight.columns {
     text-align: center;
   }
 
-  /* line 285, ../sass/scss/layout.scss */
+  /* line 413, ../sass/scss/layout.scss */
   .footer section.eight.columns {
     text-align: center;
   }
@@ -293,7 +433,7 @@ h3 {
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 @media only screen and (max-width: 960px) {
-  /* line 303, ../sass/scss/layout.scss */
+  /* line 431, ../sass/scss/layout.scss */
   nav.menu {
     width: 100%;
   }

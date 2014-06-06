@@ -50,6 +50,20 @@ section.first{
 	background-size:cover;
 }
 
+section.first h1{
+	opacity:0.8;
+	position:relative;
+	width:100%;
+	top:89%;
+	text-align:center;
+	font-family:arial;
+	font-size:40px;
+	background-color:white;
+	display:block;
+	white-space:nowrap;
+	overflow:hidden;
+}
+
 section.second{
 	border-top:2px solid white;
 	margin:0 auto;
@@ -59,11 +73,40 @@ section.second{
 	background-size:cover;
 }
 
+section.second h1{
+	opacity:0.8;
+	position:relative;
+	width:100%;
+	top:89%;
+	text-align:center;
+		font-family:arial;
+	font-size:40px;
+	background-color:white;
+	display:block;
+	white-space:nowrap;
+	overflow:hidden;
+}
+
+section.third h1{
+	opacity:0.8;
+	position:relative;
+	width:100%;
+	top:89%;
+	text-align:center;
+	font-family:arial;
+	font-size:40px;
+	background-color:white;
+	display:block;
+	white-space:nowrap;
+	overflow:hidden;
+}
+
 section.third{
 	border-top:2px solid white;
 	margin:0 auto;
 	height:100%;
 	width:100%;
+	overflow:hidden;
 	background-image:url(http://i.imgur.com/Es9Tv8G.jpg);
 	background-repeat:no-repeat;
 	background-size:contain;
@@ -76,7 +119,16 @@ section.fourth{
 	margin:0 auto;
 	height:100%;
 	width:100%;
-	background-image:url(http://i.imgur.com/Es9Tv8G.jpg);
+	background-color:#85c3af;
+	background-size:cover;
+}
+
+section.fifth{
+	border-top:2px solid white;
+	margin:0 auto;
+	height:100%;
+	width:100%;
+	background-color:#a29281;
 	background-size:cover;
 }
 
@@ -110,6 +162,7 @@ section.fourth{
 }
 
 .nav.menu1{
+	 -webkit-box-flex: 4; 
 	flex:4;
 	background:#258244;
 	max-width:100px;
@@ -175,6 +228,7 @@ section.fourth{
 }
 
 nav.menu{
+	display: -webkit-box;
 	display:flex;
 	height:62px;
 	width:78%;
@@ -242,7 +296,81 @@ h3{
 
 /* MEDIA QUERIES 
  * ------------------------------------------------ */
+ @media only screen and (max-width:950px){
+	section.third h1{
+		font-size:33px;
+	}
+}
 
+@media only screen and (max-width:865px){
+	section.first h1{
+		font-size:30px;
+	}
+
+	section.second h1{
+		font-size:28px;
+	}
+}
+
+@media only screen and (max-width:750px){
+	section.second{
+		background-image:url(http://i.imgur.com/qIS61T2.jpg);
+		background-image:cover;
+	}
+
+	section.third h1{
+		font-size:25px;
+	}
+}
+
+@media only screen and (max-width:660px){
+	section.first h1{
+		font-size:25px;
+	}
+
+	section.second h1{
+		font-size:23px;
+	}
+
+	section.third h1{
+		font-size:22px;
+	}
+}
+
+@media only screen and (max-width:525px){
+	section.first h1{
+		font-size:17px;
+	}
+
+	section.second h1{
+		font-size:15px;
+	}
+
+	section.third h1{
+		font-size:16px;
+	}
+}
+
+@media only screen and (max-width:525px){
+	section.second{
+		background-image:url(http://i.imgur.com/9gy7887.jpg);
+		background-image:cover;
+	}
+}
+
+@media only screen and (max-width:400px){
+	section.second{
+		background-image:url(http://i.imgur.com/VU8tlQC.jpg);
+		background-image:cover;
+	}
+}
+
+@media only screen and (max-width:750px){
+	section.third{
+		background-image:url(http://i.imgur.com/qIS61T2.jpg);
+		background-image:cover;
+	}
+}
 
 @media only screen and (min-height:750px){
 	.wrapper.top{
