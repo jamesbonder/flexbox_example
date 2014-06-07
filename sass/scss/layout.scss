@@ -43,7 +43,7 @@ section.first{
 	margin:0 auto;
 	height:97%;
 	width:100%;
-	background-image:url(http://i.imgur.com/Es9Tv8G.jpg);
+	background-color:#85c3af;
 	background-repeat:no-repeat;
 	background-size:contain;
 	background-position:center;
@@ -69,7 +69,7 @@ section.second{
 	margin:0 auto;
 	height:100%;
 	width:100%;
-	background-image:url(http://i.imgur.com/Es9Tv8G.jpg);
+	background-color:#a29281;
 	background-size:cover;
 }
 
@@ -87,50 +87,8 @@ section.second h1{
 	overflow:hidden;
 }
 
-section.third h1{
-	opacity:0.8;
-	position:relative;
-	width:100%;
-	top:89%;
-	text-align:center;
-	font-family:arial;
-	font-size:40px;
-	background-color:white;
-	display:block;
-	white-space:nowrap;
-	overflow:hidden;
-}
 
-section.third{
-	border-top:2px solid white;
-	margin:0 auto;
-	height:100%;
-	width:100%;
-	overflow:hidden;
-	background-image:url(http://i.imgur.com/Es9Tv8G.jpg);
-	background-repeat:no-repeat;
-	background-size:contain;
-	background-position:center;
-	background-size:cover;
-}
 
-section.fourth{
-	border-top:2px solid white;
-	margin:0 auto;
-	height:100%;
-	width:100%;
-	background-color:#85c3af;
-	background-size:cover;
-}
-
-section.fifth{
-	border-top:2px solid white;
-	margin:0 auto;
-	height:100%;
-	width:100%;
-	background-color:#a29281;
-	background-size:cover;
-}
 
 /* HEADING
  *------------------------------------------------- */
